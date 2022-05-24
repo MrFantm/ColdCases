@@ -5,32 +5,32 @@ the folder setup, essential files for your case to run, and any bugs that may oc
 
 ---------
 # Contents
-[Folders](https://github.com/MrCryptoFantom/ColdCases/main/CaseScript.md#contents)
+[Folders](https://github.com/MrCryptoFantom/ColdCases/blob/main/CaseScript.md#contents)
 
-[Vital Files](https://github.com/MrCryptoFantom/ColdCases/main/CaseScript.md#folders)
+[Vital Files](https://github.com/MrCryptoFantom/ColdCases/blob/main/CaseScript.md#folders)
 
-[Evidence Files](https://github.com/MrCryptoFantom/ColdCases/main/CaseScript.md#vital-files)
+[Evidence Files](https://github.com/MrCryptoFantom/ColdCases/blob/main/CaseScript.md#vital-files)
 
-[Scripts](https://github.com/MrCryptoFantom/ColdCases/main/CaseScript.md#evidence-files)
+[Scripts](https://github.com/MrCryptoFantom/ColdCases/blob/main/CaseScript.md#evidence-files)
 
-# [Script Tags ](https://github.com/MrCryptoFantom/ColdCases/main/CaseScript.md#scripts)
-[[Dialogue]](https://github.com/MrCryptoFantom/ColdCases/main/CaseScript.md#script-tags)
+# [Script Tags ](https://github.com/MrCryptoFantom/ColdCases/blob/main/CaseScript.md#scripts)
+[[Dialogue]](https://github.com/MrCryptoFantom/ColdCases/blob/main/CaseScript.md#script-tags)
 
-[[Break]](https://github.com/MrCryptoFantom/ColdCases/main/CaseScript.md#dialogue--dialogue-)
+[[Break]](https://github.com/MrCryptoFantom/ColdCases/blob/main/CaseScript.md#dialogue--dialogue-)
 
-[[Space], [BigSpace]](https://github.com/MrCryptoFantom/ColdCases/main/CaseScript.md#break-)
+[[Space], [BigSpace]](https://github.com/MrCryptoFantom/ColdCases/blob/main/CaseScript.md#break-)
 
-[[InsertName]](https://github.com/MrCryptoFantom/ColdCases/main/CaseScript.md#space--bigspace-)
+[[InsertName]](https://github.com/MrCryptoFantom/ColdCases/blob/main/CaseScript.md#space--bigspace-)
 
-[[AddEvidence]](https://github.com/MrCryptoFantom/ColdCases/main/CaseScript.md#insertname-)
+[[AddEvidence]](https://github.com/MrCryptoFantom/ColdCases/blob/main/CaseScript.md#insertname-)
 
-[[WaitForInput]](https://github.com/MrCryptoFantom/ColdCases/main/CaseScript.md#addevidence-)
+[[WaitForInput]](https://github.com/MrCryptoFantom/ColdCases/blob/main/CaseScript.md#addevidence-)
 
-[[Open]](https://github.com/MrCryptoFantom/ColdCases/main/CaseScript.md#waitforinput-)
+[[Open]](https://github.com/MrCryptoFantom/ColdCases/blob/main/CaseScript.md#waitforinput-)
 
-[[SystemSay]](https://github.com/MrCryptoFantom/ColdCases/main/CaseScript.md#open-)
+[[SystemSay]](https://github.com/MrCryptoFantom/ColdCases/blob/main/CaseScript.md#open-)
 
-[[ImportantSay]](https://github.com/MrCryptoFantom/ColdCases/main/CaseScript.md#systemsay-)
+[[ImportantSay]](https://github.com/MrCryptoFantom/ColdCases/blob/main/CaseScript.md#systemsay-)
 
 ------------------------
 Folders
