@@ -51,7 +51,7 @@ false
 [/Dialogue]
 ```
 
-You could also give or take rep to and from the player through the evidence file using the ``[Rep+]`` and ``[Rep-]`` tags to increase and decrease the user's Reputation.
+You could also give or take rep to and from the player through the evidence file using the ``[Rep+]`` and ``[Rep-]`` tags to increase and decrease the user's Reputation. 
 Same goes for Sanity as well, use the ``[Sanity+]`` and ``[Sanity-]`` tags to increase and decrease the user's sanity
 
 -----------------------------------------
