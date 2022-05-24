@@ -13,7 +13,7 @@ the folder setup, essential files for your case to run, and any bugs that may oc
 
 [Scripts](https://github.com/MrCryptoFantom/ColdCases/blob/main/CaseScript.md#evidence-files)
 
-# [Script Tags ](https://github.com/MrCryptoFantom/ColdCases/blob/main/CaseScript.md#scripts)
+# [Script Tags ](https://github.com/MrCryptoFantom/ColdCases/blob/main/CaseScript.md#script-tags)
 [[Dialogue]](https://github.com/MrCryptoFantom/ColdCases/blob/main/CaseScript.md#script-tags)
 
 [[Break]](https://github.com/MrCryptoFantom/ColdCases/blob/main/CaseScript.md#dialogue--dialogue-)
