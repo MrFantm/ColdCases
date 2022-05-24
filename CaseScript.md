@@ -3,6 +3,36 @@
 If you're wanting to write custom cases to solve here's what you're gonna want to know. This should cover the custom programming language,
 the folder setup, essential files for your case to run, and any bugs that may occur and how to fix them.
 
+---------
+# Contents
+[Folders](https://github.com/MrCryptoFantom/ColdCases/edit/main/CaseScript.md#contents)
+
+[Vital Files](https://github.com/MrCryptoFantom/ColdCases/edit/main/CaseScript.md#folders)
+
+[Evidence Files](https://github.com/MrCryptoFantom/ColdCases/edit/main/CaseScript.md#vital-files)
+
+[Scripts](https://github.com/MrCryptoFantom/ColdCases/edit/main/CaseScript.md#evidence-files)
+
+# [Script Tags ](https://github.com/MrCryptoFantom/ColdCases/edit/main/CaseScript.md#scripts)
+[[Dialogue]](https://github.com/MrCryptoFantom/ColdCases/edit/main/CaseScript.md#script-tags)
+
+[[Break]](https://github.com/MrCryptoFantom/ColdCases/edit/main/CaseScript.md#dialogue--dialogue-)
+
+[[Space], [BigSpace]](https://github.com/MrCryptoFantom/ColdCases/edit/main/CaseScript.md#break-)
+
+[[InsertName]](https://github.com/MrCryptoFantom/ColdCases/edit/main/CaseScript.md#space--bigspace-)
+
+[[AddEvidence]](https://github.com/MrCryptoFantom/ColdCases/edit/main/CaseScript.md#insertname-)
+
+[[WaitForInput]](https://github.com/MrCryptoFantom/ColdCases/edit/main/CaseScript.md#addevidence-)
+
+[[Open]](https://github.com/MrCryptoFantom/ColdCases/edit/main/CaseScript.md#waitforinput-)
+
+[[SystemSay]](https://github.com/MrCryptoFantom/ColdCases/edit/main/CaseScript.md#open-)
+
+[[ImportantSay]](https://github.com/MrCryptoFantom/ColdCases/edit/main/CaseScript.md#systemsay-)
+
+------------------------
 Folders
 -----------------------------------------
 Your case folder should reside in C:\ColdCases\Resources\Missions
@@ -66,8 +96,8 @@ Your script names should be as follows:
 
 Introduction script aka the script that's launched when the case file is run: main.script
 
-Interaction scripts: These should be named interaction_ + interaction number + interaction option, so if it's your first interaction, and option a your script should 
-be named, "interaction_1_a.script". This is so each decision can directly affect the way your case is played out.
+Interaction scripts: These should be named ``interaction_`` + ``interaction number aka 1`` + ``_interaction option aka _a``, so if it's your first interaction, and you want this script to run when the player chooses option a, your script should 
+be named, ``interaction_1_a.script``. This is so each decision can directly affect the way your case is played out.
 
 I would also recommend using spaces in place of TABs, this is just because of the way the script reader reads the scripts. You don't have to, but your spacing in game
 may be a little wacky.
