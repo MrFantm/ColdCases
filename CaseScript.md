@@ -1,6 +1,10 @@
 # CaseScript 1.0 Documentation
 
-If you're wanting to write custom cases to solve here's what you're gonna want to know. This should cover the custom programming language,
+If you're wanting to write custom cases to solve here's what you're gonna want to know.
+
+CaseScript is an Interperated Programming Language written by yours truly, I am in the process of polishing up the syntax for most of this. It is subject to change.
+
+This should cover the custom programming language,
 the folder setup, essential files for your case to run, and any bugs that may occur and how to fix them.
 
 ---------
