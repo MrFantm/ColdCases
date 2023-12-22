@@ -259,7 +259,7 @@ The syntax is as follows:
 
 ------------------------
 [PlayAudio] Tag:
-
+--------------
 The PlayAudio tag is a new addition in CaseScript 1.1.0. As you might suspect, this tag allows you to play any .wav
 audio file though the console. This could be music, or sound effects. Just drag your audio file into the audio folder in your
 Case File.
@@ -271,7 +271,7 @@ The syntax is as follows:
 
 ------------------------
 [LoadScreen] Tag:
-
+--------------
 The LoadScreen tag is a new addition in CaseScript 1.0.1. This tag is used to load custom screens (See "CustomScreens" above for more info).
 
 As long as your custom screen is in your case file's "screens" folder, it will load the screen. Use this with caution as it may glitch the current dialogue in the console. I recommend waiting to use this function until I've worked out the kinks. But, don't be afraid to experiment
