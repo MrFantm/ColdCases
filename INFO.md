@@ -1,5 +1,4 @@
-
-**General**
+# General
 ________________________________________________________________________________________
 
 
@@ -17,12 +16,7 @@ Also, if you're viewing this in the console, this is a very long document contai
 You've been warned...
 
 
-███████╗██████╗ ██╗████████╗ ██████╗ ██████╗ 
-██╔════╝██╔══██╗██║╚══██╔══╝██╔═══██╗██╔══██╗
-█████╗  ██║  ██║██║   ██║   ██║   ██║██████╔╝
-██╔══╝  ██║  ██║██║   ██║   ██║   ██║██╔══██╗
-███████╗██████╔╝██║   ██║   ╚██████╔╝██║  ██║
-╚══════╝╚═════╝ ╚═╝   ╚═╝    ╚═════╝ ╚═╝  ╚═╝ v1.0.0
+# Editor *v1.0.0*
 ________________________________________________________________________________________                                             
 
 
@@ -30,12 +24,7 @@ A new addition in ColdCases 1.0.2, the editor allows you to create case files an
 instead of manually creating them in your file explorer.
 
 
- ██████╗ █████╗ ███████╗███████╗  ███████╗██╗██╗     ███████╗███████╗
-██╔════╝██╔══██╗██╔════╝██╔════╝  ██╔════╝██║██║     ██╔════╝██╔════╝
-██║     ███████║███████╗█████╗    █████╗  ██║██║     █████╗  ███████╗
-██║     ██╔══██║╚════██║██╔══╝    ██╔══╝  ██║██║     ██╔══╝  ╚════██║
-╚██████╗██║  ██║███████║███████╗  ██║     ██║███████╗███████╗███████║
- ╚═════╝╚═╝  ╚═╝╚══════╝╚══════╝  ╚═╝     ╚═╝╚══════╝╚══════╝╚══════╝
+# Case Files
 ________________________________________________________________________________________
                                                                    
 
@@ -134,12 +123,8 @@ It will give you the amount of characters you have highlighted in the bottom rig
 
 
 
-███████╗ ██████╗██████╗ ██╗██████╗ ████████╗██╗███╗   ██╗ ██████╗ 
-██╔════╝██╔════╝██╔══██╗██║██╔══██╗╚══██╔══╝██║████╗  ██║██╔════╝ 
-███████╗██║     ██████╔╝██║██████╔╝   ██║   ██║██╔██╗ ██║██║  ███╗
-╚════██║██║     ██╔══██╗██║██╔═══╝    ██║   ██║██║╚██╗██║██║   ██║
-███████║╚██████╗██║  ██║██║██║        ██║   ██║██║ ╚████║╚██████╔╝
-╚══════╝ ╚═════╝╚═╝  ╚═╝╚═╝╚═╝        ╚═╝   ╚═╝╚═╝  ╚═══╝ ╚═════╝      CaseScript 1.1.0
+# Scripting     
+*CaseScript 1.1.0*
 ______________________________________________________________________________________________
 
 
@@ -162,9 +147,9 @@ your spacing in game may be a little wacky.
 
 This section is gonna be a bit long so sorry about that! I'll try my best to organize it in a way that's easy to read and understand!
 
+*As a good rule of thumb to keep in mind, when you're dealing with opening, editing, or saving files, is to separate your tag with an "AT(@)" sign.
+And when you're working with any sort of one line text command, separate your tag and the text with a colon (:).* 
 
-As a good rule of thumb to keep in mind, when you're dealing with opening, editing, or saving files, is to separate your tag with an "AT(@)" sign.
-And when you're working with any sort of one line text command, separate your tag and the text with a colon (:).  
 -----------------------------------------
 Script Tags
 -----------------------------------------
@@ -186,11 +171,11 @@ Insert the Break tag in your code for a one second pause. This can be used to ha
 You can "stack" them on top of each other to create longer pauses. 
 
 Such as:
-
-[Break]
-[Break]
-[Break]
-
+```
+ [Break]
+ [Break]
+ [Break]
+```
 for a three second pause, and so on.
 
 ------------------------
@@ -259,10 +244,10 @@ Your evidence file should be in the evidence folder. If it's not, the reader won
 The SystemSay tag is used to stress a certain sentence by changing the text color to Cyan. This can be used for important notes such as when the player
 unlocks a piece of evidence, the narrator is speaking, some sort of alert, anything you want to use it as really. 
 
-It's syntax in not that complicated :
-
+Its syntax in not that complicated :
+```
  [SystemSay]:Hello World!!!
-
+```
 As you can see, it's simply the Tag itself followed by a colon, that is then followed by your text. See, simple!
 
 ------------------------
@@ -274,9 +259,9 @@ When you use this tag it tells the script reader that the text is important and 
 Settings File Location: ...\ColdCases\Resources\BaseGame\settings.txt  There's also a JPEG in the same folder with all the colors and their corresponding numbers.
 
 The syntax is as follows:
-
+```
 [ImportantSay]:Hello World!!!
-
+```
 ------------------------
 [PlayAudio] Tag:
 
@@ -285,9 +270,9 @@ audio file though the console. This could be music, or sound effects. Just drag 
 Case File.
 
 The syntax is as follows:
-
+```
 [PlayAudio]@gunshot.wav
-
+```
 ------------------------
 [LoadScreen] Tag:
 
@@ -297,11 +282,14 @@ current dialogue in the console. I recommend waiting to use this function until 
 with it either! :)
 
 The syntax is as follows:
-
+```
 [LoadScreen]@customScreen.screen
-
+```
 Accepted Arguments: 
 
 SYSTEM: Access a screen or file that is in the system(Universal) files.
 
-Example: [LoadScreen]SYSTEM@case_os.screen
+Example: 
+```
+[LoadScreen]SYSTEM@case_os.screen
+```
