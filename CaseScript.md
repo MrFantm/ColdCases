@@ -9,38 +9,38 @@ the folder setup, essential files for your case to run, and any bugs that may oc
 
 ---------
 # Contents
-[Folders](https://github.com/MrCryptoFantom/ColdCases/blob/main/CaseScript.md#contents)
+[Folders](https://github.com/MrFantm/ColdCases/blob/main/CaseScript.md#contents)
 
-[Vital Files](https://github.com/MrCryptoFantom/ColdCases/blob/main/CaseScript.md#folders)
+[Vital Files](https://github.com/MrFantm/ColdCases/blob/main/CaseScript.md#folders)
 
-[Evidence Files](https://github.com/MrCryptoFantom/ColdCases/blob/main/CaseScript.md#vital-files)
+[Evidence Files](https://github.com/MrFantm/ColdCases/blob/main/CaseScript.md#vital-files)
 
-[Scripts](https://github.com/MrCryptoFantom/ColdCases/blob/main/CaseScript.md#evidence-files)
+[Scripts](https://github.com/MrFantm/ColdCases/blob/main/CaseScript.md#evidence-files)
 
-[Custom Screens](https://github.com/MrCryptoFantom/ColdCases/blob/main/CaseScript.md#custom-screens)
+[Custom Screens](https://github.com/MrFantm/ColdCases/blob/main/CaseScript.md#custom-screens)
 
-# [Script Tags ](https://github.com/MrCryptoFantom/ColdCases/blob/main/CaseScript.md#script-tags)
-[[Dialogue]](https://github.com/MrCryptoFantom/ColdCases/blob/main/CaseScript.md#script-tags)
+# [Script Tags ](https://github.com/MrFantm/ColdCases/blob/main/CaseScript.md#script-tags)
+[[Dialogue]](https://github.com/MrFantm/ColdCases/blob/main/CaseScript.md#script-tags)
 
-[[Break]](https://github.com/MrCryptoFantom/ColdCases/blob/main/CaseScript.md#dialogue--dialogue-)
+[[Break]](https://github.com/MrFantm/ColdCases/blob/main/CaseScript.md#dialogue--dialogue-)
 
-[[Space], [BigSpace]](https://github.com/MrCryptoFantom/ColdCases/blob/main/CaseScript.md#break-)
+[[Space], [BigSpace]](https://github.com/MrFantm/ColdCases/blob/main/CaseScript.md#break-)
 
-[[InsertName]](https://github.com/MrCryptoFantom/ColdCases/blob/main/CaseScript.md#space--bigspace-)
+[[InsertName]](https://github.com/MrFantm/ColdCases/blob/main/CaseScript.md#space--bigspace-)
 
-[[AddEvidence]](https://github.com/MrCryptoFantom/ColdCases/blob/main/CaseScript.md#insertname-)
+[[AddEvidence]](https://github.com/MrFantm/ColdCases/blob/main/CaseScript.md#insertname-)
 
-[[WaitForInput]](https://github.com/MrCryptoFantom/ColdCases/blob/main/CaseScript.md#addevidence-)
+[[WaitForInput]](https://github.com/MrFantm/ColdCases/blob/main/CaseScript.md#addevidence-)
 
-[[Open]](https://github.com/MrCryptoFantom/ColdCases/blob/main/CaseScript.md#waitforinput-)
+[[Open]](https://github.com/MrFantm/ColdCases/blob/main/CaseScript.md#waitforinput-)
 
-[[SystemSay]](https://github.com/MrCryptoFantom/ColdCases/blob/main/CaseScript.md#open-)
+[[SystemSay]](https://github.com/MrFantm/ColdCases/blob/main/CaseScript.md#open-)
 
-[[ImportantSay]](https://github.com/MrCryptoFantom/ColdCases/blob/main/CaseScript.md#systemsay-)
+[[ImportantSay]](https://github.com/MrFantm/ColdCases/blob/main/CaseScript.md#systemsay-)
 
-[[PlayAudio]](https://github.com/MrCryptoFantom/ColdCases/blob/main/CaseScript.md#playaudio-)
+[[PlayAudio]](https://github.com/MrFantm/ColdCases/blob/main/CaseScript.md#playaudio-)
 
-[[LoadScreen]](https://github.com/MrCryptoFantom/ColdCases/blob/main/CaseScript.md#loadscreen-)
+[[LoadScreen]](https://github.com/MrFantm/ColdCases/blob/main/CaseScript.md#loadscreen-)
 
 ------------------------
 Folders
