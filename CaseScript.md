@@ -105,7 +105,7 @@ screen that you can follow.
 
 It's a simple text file with the ".screen" extension. 
 
-If you're on windows and can't see your file extensions in your File Explorer, go to the "View" yab at the top of your file explorer,
+If you're on windows and can't see your file extensions in your File Explorer, go to the "View" tab at the top of your file explorer,
 and click the box that says "File name extensions". Now you can edit your files' extensions manually.
 
 Your screens dimensions should be 119x30 characters. 
@@ -161,12 +161,11 @@ You can "stack" them on top of each other to create longer pauses. It is basical
 
 Such as:
 
-``[Break]``
-
-``[Break]``
-
-``[Break]``
-
+```
+[Break]
+[Break]
+[Break]
+```
 
 for a three second pause, and so on.
 
