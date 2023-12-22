@@ -1,4 +1,4 @@
-# CaseScript 1.0 Documentation
+# CaseScript 1.0.1 Documentation
 
 If you're wanting to write custom cases to solve here's what you're gonna want to know.
 
@@ -16,6 +16,8 @@ the folder setup, essential files for your case to run, and any bugs that may oc
 [Evidence Files](https://github.com/MrCryptoFantom/ColdCases/blob/main/CaseScript.md#vital-files)
 
 [Scripts](https://github.com/MrCryptoFantom/ColdCases/blob/main/CaseScript.md#evidence-files)
+
+[Custom Screens](https://github.com/MrCryptoFantom/ColdCases/blob/main/CaseScript.md#custom-screens)
 
 # [Script Tags ](https://github.com/MrCryptoFantom/ColdCases/blob/main/CaseScript.md#script-tags)
 [[Dialogue]](https://github.com/MrCryptoFantom/ColdCases/blob/main/CaseScript.md#script-tags)
@@ -35,6 +37,10 @@ the folder setup, essential files for your case to run, and any bugs that may oc
 [[SystemSay]](https://github.com/MrCryptoFantom/ColdCases/blob/main/CaseScript.md#open-)
 
 [[ImportantSay]](https://github.com/MrCryptoFantom/ColdCases/blob/main/CaseScript.md#systemsay-)
+
+[[PlayAudio]](https://github.com/MrCryptoFantom/ColdCases/blob/main/CaseScript.md#playaudio-)
+
+[[LoadScreen]](https://github.com/MrCryptoFantom/ColdCases/blob/main/CaseScript.md#loadscreen-)
 
 ------------------------
 Folders
@@ -89,6 +95,26 @@ You could also give or take rep to and from the player through the evidence file
 Same goes for Sanity as well, use the ``[Sanity+]`` and ``[Sanity-]`` tags to increase and decrease the user's sanity
 
 -----------------------------------------
+Custom Screens
+-----------------------------------------
+You can create custom screens that you can load through code!
+The screen should be in a text document openable with notepad, visual studio, etc.
+
+To create a screen you can use the Editor, or create one manually. Every Case File you create in the Editor will generate an example 
+screen that you can follow. 
+
+It's a simple text file with the ".screen" extension. 
+
+If you're on windows and can't see your file extensions in your File Explorer, go to the "View" yab at the top of your file explorer,
+and click the box that says "File name extensions". Now you can edit your files' extensions manually.
+
+Your screens dimensions should be 119x30 characters. 
+
+You can check the amount of characters by opening this file in a text editor such as VS Code, and highlighting all the characters. 
+It will give you the amount of characters you have highlighted in the bottom right corner.
+
+
+-----------------------------------------
 Scripts
 -----------------------------------------
 ColdCases uses a custom Programming language written by yours truly.
@@ -108,6 +134,7 @@ may be a little wacky.
 
 This section is gonna be a bit long so sorry about that! I'll try my best to organize it in a way that's easy to read and understand!
 
+As a good rule of thumb to keep in mind, when you're dealing with opening, editing, or saving files, is to separate your tag with an "AT(@)" sign. When you're working with any sort of one line text command, separate your tag and the text with a colon (:).
 
 -----------------------------------------
 # Script Tags
@@ -229,3 +256,36 @@ Settings File Location: C:\ColdCases\Resources\BaseGame\settings.txt  There's al
 The syntax is as follows:
 
 [ImportantSay]:Hello World!!!
+
+------------------------
+[PlayAudio] Tag:
+
+The PlayAudio tag is a new addition in CaseScript 1.1.0. As you might suspect, this tag allows you to play any .wav
+audio file though the console. This could be music, or sound effects. Just drag your audio file into the audio folder in your
+Case File.
+
+The syntax is as follows:
+```
+[PlayAudio]@gunshot.wav
+```
+
+------------------------
+[LoadScreen] Tag:
+
+The LoadScreen tag is a new addition in CaseScript 1.0.1. This tag is used to load custom screens (See "CustomScreens" above for more info).
+
+As long as your custom screen is in your case file's "screens" folder, it will load the screen. Use this with caution as it may glitch the current dialogue in the console. I recommend waiting to use this function until I've worked out the kinks. But, don't be afraid to experiment
+with it either! :)
+
+The syntax is as follows:
+```
+[LoadScreen]@customScreen.screen
+```
+Accepted Arguments: 
+
+SYSTEM: Access a screen or file that is in the system(Universal) files.
+
+Example: 
+```
+[LoadScreen]SYSTEM@case_os.screen
+```
